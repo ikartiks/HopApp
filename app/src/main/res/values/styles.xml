@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- 1st  System attributes -->
+        <item name="android:windowBackground">@color/customThemeLightBg</item>
+        <item name="android:textColor">@color/customThemeLightText</item>
+
+        <!-- other System attributes Material -->
+        <item name="colorPrimary">@color/lightColorPrimary</item>
+        <item name="colorPrimaryDark">@color/lightColorPrimaryDark</item>
+
+        <!-- below is bg when nav bar is opened -->
+        <!-- <item name="android:colorBackground">@color/test2</item> -->
+
+        <!-- below is bg when nav bar is opened -->
+        <!--<item name="bgForviewSeperator">@color/lightDivider</item>-->
+        <!--<item name="bgForHeaderNav">@color/lightColorPrimary</item>-->
+        <!--<item name="bgForContentNav">@color/customThemeLightBg</item>-->
+        <!--<item name="txtColorForHeaderNav">@color/lightPrimaryText</item>-->
+
+        <!-- <item name="starred_selector">@drawable/ic_action_important_light</item> -->
+        <!--<item name="drawer_selector">@drawable/ic_drawer_light</item>-->
+
+        <!--<item name="bgForRecycler">@color/white</item>-->
+        <!--<item name="bgStrokeForRecycler">@color/lightBgStrokeForCards</item>-->
+    </style>
+
+</resources>

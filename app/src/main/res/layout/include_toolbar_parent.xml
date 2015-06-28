@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/include_toolbar">
+
+    </include>
+
+    <com.kartiks.ui.GifImageView
+        android:id="@+id/Loading"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:gifResourseId="loading.gif"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:elevation="@dimen/stdElevationForLoader"
+        />
+
+</RelativeLayout>

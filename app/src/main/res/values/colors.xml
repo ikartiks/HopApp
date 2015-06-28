@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<!-- Light theme colors -->
+    <color name="lightColorPrimary">#FFEB3B</color>
+    <color name="lightColorPrimaryDark">#FBC02D</color>
+	<color name="lightAccent">#FFC107</color>
+	<color name="lightPrimaryText">#212121</color>
+	<color name="lightSecandoryText">#727272</color>
+	<color name="lightIcons">#212121</color>
+	<color name="lightDivider" >#B6B6B6</color>
+	<color name="lightBgStrokeForCards" >#9E9E9E</color>
+	
+	
+	<color name="customThemeLightBg">#F5F5F5</color>
+	<color name="customThemeLightText">#212121</color>
+    
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    
+</resources>

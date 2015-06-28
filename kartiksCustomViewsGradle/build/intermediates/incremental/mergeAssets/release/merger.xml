@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/kartikshah/StudioProjects/Hop/kartiksCustomViewsGradle/src/main/assets"><file name="pb.gif" path="/Users/kartikshah/StudioProjects/Hop/kartiksCustomViewsGradle/src/main/assets/pb.gif"/><file name="s.ttf" path="/Users/kartikshah/StudioProjects/Hop/kartiksCustomViewsGradle/src/main/assets/s.ttf"/></source></dataSet><dataSet config="release"><source path="/Users/kartikshah/StudioProjects/Hop/kartiksCustomViewsGradle/src/release/assets"/></dataSet></merger>

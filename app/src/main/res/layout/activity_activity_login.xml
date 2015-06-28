@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hopapp.ActivityLogin"
+    android:orientation="vertical"
+    >
+
+    <include android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/include_toolbar_parent">
+
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/stdMarginLeftRight"
+            android:orientation="vertical"
+            >
+
+            <com.kartiks.ui.CustomEditText
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="60dp"
+                android:hint="@string/name"
+                android:imeOptions="actionNext"
+                app:ttfResourseName="fonts/s.ttf"
+                />
+
+            <com.kartiks.ui.CustomEditText
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="60dp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:imeOptions="actionNext"
+                app:ttfResourseName="fonts/s.ttf"
+                android:layout_marginTop="@dimen/stdMarginTopForViews"/>
+
+            <com.kartiks.ui.CustomEditText
+                android:id="@+id/Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="60dp"
+                android:hint="@string/password"
+                android:imeOptions="actionNext"
+                app:ttfResourseName="fonts/s.ttf"
+                android:layout_marginTop="@dimen/stdMarginTopForViews"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.kartiks.ui.CustomEditText
+                    android:id="@+id/CountryCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="60dp"
+                    android:hint="@string/countryCode"
+                    android:maxLength="2"
+                    android:maxEms="2"
+                    android:inputType="number"
+                    android:imeOptions="actionNext"
+                    app:ttfResourseName="fonts/s.ttf"
+                    android:layout_marginTop="@dimen/stdMarginTopForViews"/>
+
+
+
+                <com.kartiks.ui.CustomEditText
+                    android:id="@+id/Number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="60dp"
+                    android:maxLength="10"
+                    android:maxEms="10"
+                    android:hint="@string/number"
+                    android:inputType="number"
+                    android:imeOptions="actionDone"
+                    app:ttfResourseName="fonts/s.ttf"
+                    android:layout_marginTop="@dimen/stdMarginTopForViews"/>
+
+            </LinearLayout>
+
+
+            <com.kartiks.ui.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0000"
+                android:text="@string/compulsary"
+                app:ttfResourseName="fonts/s.ttf"
+                android:layout_marginTop="@dimen/stdMarginTopForViews"/>
+
+            <com.kartiks.ui.CustomButtonView
+                android:id="@+id/Submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/stdMarginTopForViews"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
